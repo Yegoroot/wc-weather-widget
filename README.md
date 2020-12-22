@@ -1,24 +1,5 @@
-# wc
+# Weather Widget
 
-## Project setup
+```bash
+yarn vue-cli-service build --target wc --name weather-widget ./src/App.vue
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
