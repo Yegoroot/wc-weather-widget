@@ -56,10 +56,10 @@ export default {
       this.mode === 'dark' ? this.mode = 'light' : this.mode = 'dark'
     },
     onAdd() {
-      this.value = ""
       this.cities.push({
         name: this.value
       })
+      this.value = ""
     }
   },
   computed: {
