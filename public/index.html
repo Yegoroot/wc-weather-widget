@@ -6,12 +6,31 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+    </style>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+
+
+    <h1>Vue Web Component </h1>
+ 
+    <br>
+    <br>
+
     <widgwt-weather></widgwt-weather>
     <!-- built files will be auto injected -->
+
+    <br>
+    <br>
+    <footer>
+      <a href="https://github.com/Yegoroot/wc-weather-widget">Code <i class="fab fa-github"></i></a>
+    </footer>
   </body>
 </html>

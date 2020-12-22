@@ -1,4 +1,5 @@
-const APIURL = 'http://api.openweathermap.org';
+const protocol = process.env.NODE_ENV === 'development' ? 'http' : 'https'
+const APIURL = `${protocol}://api.openweathermap.org`;
 const axios = require('axios');
 
 export const requestsMixin = {
